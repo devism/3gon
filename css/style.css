@@ -1,0 +1,107 @@
+/*#container{
+      width:700px;
+      height:700px;
+    }*/
+#container{
+  width:100%;
+  height:100%; 
+  /*height:500px;
+  width:500px;*/
+  overflow: auto;
+   -webkit-overflow-scrolling: touch;
+   margin:0px;
+   padding:0px;
+}
+
+html,body {
+    height  : 100%;
+    overflow: hidden;
+   margin:0px;
+   padding:0px;
+}
+
+/* carousel frame */
+.buttonsBox{
+  /*border:1px solid gray;*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*max-width: 100%;*/
+  height:100%;
+  max-height: 50px;
+}
+
+#scrolling{
+/*overflow: hidden; */
+position: fixed;
+height: 38%;
+/*width: 100vw;*/
+width:100%;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+
+li{
+    float: left;
+    background-color: gray;
+    font-size: 100%;
+    /* font-size: 20px; */
+    font-family: monospace;
+    color: white;
+    height: 51px;
+    min-width: 100px;
+    border-right: 2px solid;
+    padding: 5px;
+    text-align: center;
+    line-height: 43px;
+
+}
+
+.upArrow{
+  width:40px;
+}
+
+.downArrow{
+  width:40px;
+}
+
+.menu{
+    width: 100%;
+    height: 62px;
+    background-color: #C7BEBE;
+    border: 1px solid #9A9A9A;
+    /*z-index: 100;*/
+    z-index:0;
+    position: fixed;
+    display: inline-block;
+    bottom: 50px;
+
+    overflow: hidden;
+    position: fixed;
+}
+
+.optionBtn{
+    background-color: #3a3a3a;
+    border: 1px solid white;
+    /*position: fixed;*/
+}
+
+/*--- hubee ---*/
+/*
+.huebee{
+      top: -210px;
+}
+*/
+
+
